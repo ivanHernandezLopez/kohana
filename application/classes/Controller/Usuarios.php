@@ -24,7 +24,26 @@ class Controller_Usuarios extends Controller {
 
 	public function action_agregar()
 	{
-
+		$msg = "";
+		if($this->request->method()==Request::POST)
+		{
+			//Entramos solo si recibimos datos por POST
+			$msg = "Error MySQL: Intente nuevamentes";
+			$usuario = $this->usuarios->agregar($_POST); //Enviamos POST al modelo: usuario, metodo: agregar
+			if($usuario)
+			{
+				//Solo si se inserto el registro
+				$msg = "Registro insertado correctamente";
+			}
+		}
+		$view = View::factory("crud/agregar_usuarios");
+		$this->response->body(
+				$view->set(
+					array(
+						"msg"	=> $msg,
+						)
+					)
+			);
 	}
 
 	public function action_editar()

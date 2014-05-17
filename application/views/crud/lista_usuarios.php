@@ -67,7 +67,7 @@
 							</a>
 						</td>
 						<td style="text-align:center;">
-							<a href="<?php echo URL::base(); ?>usuarios/eliminar<?php echo $usuario->id_user; ?>">
+							<a href="<?php echo URL::base(); ?>usuarios/eliminar/<?php echo $usuario->id_user; ?>">
 								<img src="<?php echo URL::base(); ?>assets/eliminar.jpg" style="width:20px;">
 							</a>
 						</td>

@@ -6,4 +6,13 @@ class Model_Usuarios extends ORM {
 	{
 		return ORM::factory("usuarios")->find_all();
 	}
+
+	public function agregar($post)
+	{
+		$usuario = ORM::factory("usuarios");
+		$usuario->name 	= $post["name"];
+		$usuario->email = $post["email"];
+		$usuario->web 	= $post["web"];
+		return $usuario->save();
+	}
 }
