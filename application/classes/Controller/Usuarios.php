@@ -48,6 +48,27 @@ class Controller_Usuarios extends Controller {
 
 	public function action_editar()
 	{
+		$msg = "";
+		$id_registro = $this->request->param("id");//Cachamos el id del registro
+		if($this->request->method()==Request::POST)
+		{
+			//Entramos solo si recibimos datos por POST
+			$msg = "Error MySQL: Intente nuevamentes";
+			$usuario = $this->usuarios->editar($_POST,$id_registro); /
+			if($usuario)
+			{
+				//Solo si se inserto el registro
+				$msg = "Registro editado correctamente";
+			}
+		}
+		$obect = $this->usuarios->select_object($id_registro); //Ejecutamos la consulta
+		$view = View::factory("crud/editar_usuarios"); // Definimos la vista que usaremos
+		$this->response->body(
+				$view->set(array(
+						"usuario"	=> $obect,
+						"msg"		=> $msg,
+					))
+			);
 
 	}
 
