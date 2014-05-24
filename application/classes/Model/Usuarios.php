@@ -30,4 +30,10 @@ class Model_Usuarios extends ORM {
 		$usuario->web 	= $post["web"];
 		return $usuario->save();
 	}
+
+	public function eliminar($id)
+	{
+		$query = "delete from usuarios where id_user=".$id;
+		return DB::query(Database::DELETE,$query)->execute();
+	}
 }

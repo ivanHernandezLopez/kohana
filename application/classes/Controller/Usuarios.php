@@ -54,7 +54,7 @@ class Controller_Usuarios extends Controller {
 		{
 			//Entramos solo si recibimos datos por POST
 			$msg = "Error MySQL: Intente nuevamentes";
-			$usuario = $this->usuarios->editar($_POST,$id_registro); /
+			$usuario = $this->usuarios->editar($_POST,$id_registro); 
 			if($usuario)
 			{
 				//Solo si se inserto el registro
@@ -74,6 +74,8 @@ class Controller_Usuarios extends Controller {
 
 	public function action_eliminar()
 	{
-		
+		$id = $this->request->param("id");
+		$this->usuarios->eliminar($id);
+		$this->redirect(URL::base()."usuarios/index");
 	}
 }
