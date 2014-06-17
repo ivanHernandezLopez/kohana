@@ -28,7 +28,7 @@ class Controller_Usuarios extends Controller {
 		if($this->request->method()==Request::POST)
 		{
 			//Entramos solo si recibimos datos por POST
-			$msg = "Error MySQL: Intente nuevamentes";
+			$msg = "Error MySQL: Intente nuevamente";
 			$usuario = $this->usuarios->agregar($_POST); //Enviamos POST al modelo: usuario, metodo: agregar
 			if($usuario)
 			{

@@ -125,6 +125,7 @@ Kohana::modules(array(
 	 'database'   => MODPATH.'database',   // Database access
 	 'orm'        => MODPATH.'orm',        // Object Relationship Mapping
 	 "mysqli"	  => MODPATH.'mysqli',
+	 "A1"		  => MODPATH."A1",
 	));
 
 /**

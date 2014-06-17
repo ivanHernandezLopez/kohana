@@ -4,7 +4,7 @@ return array
 (
 	'default' => array
 	(
-		'type'       => 'mysqli',
+		'type'       => 'MySQLi',
 		'connection' => array(
 			'hostname'   => 'localhost',
 			'database'   => 'demos',
