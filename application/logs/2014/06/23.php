@@ -731,3 +731,195 @@
 #12 /var/www/kohana/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
 #13 /var/www/kohana/index.php(118): Kohana_Request->execute()
 #14 {main} in /var/www/kohana/modules/database/classes/Kohana/Database/Query.php:251
+2014-06-23 20:37:15 --- EMERGENCY: ErrorException [ 1 ]: Class 'A1' not found ~ APPPATH/classes/Controller/Login.php [ 9 ] in file:line
+2014-06-23 20:37:15 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 20:38:27 --- EMERGENCY: ErrorException [ 1 ]: Class 'Jelly' not found ~ MODPATH/A1/classes/A1/Driver/Jelly.php [ 13 ] in file:line
+2014-06-23 20:38:27 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 20:38:38 --- EMERGENCY: ErrorException [ 1 ]: Class 'A1_Spring' not found ~ MODPATH/A1/classes/A1/Core.php [ 42 ] in file:line
+2014-06-23 20:38:38 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 20:38:40 --- EMERGENCY: ErrorException [ 1 ]: Class 'A1_Spring' not found ~ MODPATH/A1/classes/A1/Core.php [ 42 ] in file:line
+2014-06-23 20:38:40 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 20:38:48 --- EMERGENCY: ErrorException [ 1 ]: Class 'A1_Orm' not found ~ MODPATH/A1/classes/A1/Core.php [ 42 ] in file:line
+2014-06-23 20:38:48 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 20:39:00 --- EMERGENCY: ErrorException [ 1 ]: Class 'A1_Orm' not found ~ MODPATH/A1/classes/A1/Core.php [ 42 ] in file:line
+2014-06-23 20:39:00 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 20:44:33 --- EMERGENCY: ErrorException [ 1 ]: Class 'A1_Driver_ORM' not found ~ MODPATH/A1/classes/A1/ORM.php [ 3 ] in file:line
+2014-06-23 20:44:33 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 20:44:34 --- EMERGENCY: ErrorException [ 1 ]: Class 'A1_Driver_ORM' not found ~ MODPATH/A1/classes/A1/ORM.php [ 3 ] in file:line
+2014-06-23 20:44:34 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 20:44:34 --- EMERGENCY: ErrorException [ 1 ]: Class 'A1_Driver_ORM' not found ~ MODPATH/A1/classes/A1/ORM.php [ 3 ] in file:line
+2014-06-23 20:44:34 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 20:44:34 --- EMERGENCY: ErrorException [ 1 ]: Class 'A1_Driver_ORM' not found ~ MODPATH/A1/classes/A1/ORM.php [ 3 ] in file:line
+2014-06-23 20:44:34 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 20:45:04 --- EMERGENCY: ErrorException [ 1 ]: Class 'A1_Driver_ORM' not found ~ MODPATH/A1/classes/A1/ORM.php [ 3 ] in file:line
+2014-06-23 20:45:04 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 20:45:05 --- EMERGENCY: ErrorException [ 1 ]: Class 'A1_Driver_ORM' not found ~ MODPATH/A1/classes/A1/ORM.php [ 3 ] in file:line
+2014-06-23 20:45:05 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 20:45:05 --- EMERGENCY: ErrorException [ 1 ]: Class 'A1_Driver_ORM' not found ~ MODPATH/A1/classes/A1/ORM.php [ 3 ] in file:line
+2014-06-23 20:45:05 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 20:45:05 --- EMERGENCY: ErrorException [ 1 ]: Class 'A1_Driver_ORM' not found ~ MODPATH/A1/classes/A1/ORM.php [ 3 ] in file:line
+2014-06-23 20:45:05 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 20:45:06 --- EMERGENCY: ErrorException [ 1 ]: Class 'A1_Driver_ORM' not found ~ MODPATH/A1/classes/A1/ORM.php [ 3 ] in file:line
+2014-06-23 20:45:06 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 20:45:06 --- EMERGENCY: ErrorException [ 1 ]: Class 'A1_Driver_ORM' not found ~ MODPATH/A1/classes/A1/ORM.php [ 3 ] in file:line
+2014-06-23 20:45:06 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 20:45:06 --- EMERGENCY: ErrorException [ 1 ]: Class 'A1_Driver_ORM' not found ~ MODPATH/A1/classes/A1/ORM.php [ 3 ] in file:line
+2014-06-23 20:45:06 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 20:46:41 --- EMERGENCY: ErrorException [ 1 ]: Call to undefined method Request::response() ~ MODPATH/A1/classes/A1/Core.php [ 120 ] in file:line
+2014-06-23 20:46:41 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 20:46:52 --- EMERGENCY: ErrorException [ 1 ]: Call to undefined method Request::response() ~ MODPATH/A1/classes/A1/Core.php [ 120 ] in file:line
+2014-06-23 20:46:52 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 20:48:06 --- EMERGENCY: ErrorException [ 1 ]: Class 'A1' not found ~ APPPATH/classes/Controller/Login.php [ 9 ] in file:line
+2014-06-23 20:48:06 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 20:48:08 --- EMERGENCY: ErrorException [ 1 ]: Class 'A1' not found ~ APPPATH/classes/Controller/Login.php [ 9 ] in file:line
+2014-06-23 20:48:08 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 20:48:23 --- EMERGENCY: ErrorException [ 1 ]: Class 'A1' not found ~ APPPATH/classes/Controller/Login.php [ 9 ] in file:line
+2014-06-23 20:48:23 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 20:48:40 --- EMERGENCY: ErrorException [ 1 ]: Class 'A1' not found ~ APPPATH/classes/Controller/Login.php [ 9 ] in file:line
+2014-06-23 20:48:40 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 20:48:43 --- EMERGENCY: ErrorException [ 1 ]: Class 'A1' not found ~ APPPATH/classes/Controller/Login.php [ 9 ] in file:line
+2014-06-23 20:48:43 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 20:48:46 --- EMERGENCY: ErrorException [ 1 ]: Class 'A1' not found ~ APPPATH/classes/Controller/Login.php [ 9 ] in file:line
+2014-06-23 20:48:46 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 20:49:19 --- EMERGENCY: ErrorException [ 1 ]: Class 'A1' not found ~ APPPATH/classes/Controller/Login.php [ 9 ] in file:line
+2014-06-23 20:49:19 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 20:49:28 --- EMERGENCY: ErrorException [ 1 ]: Class 'A1_Core' not found ~ MODPATH/A1/classes/A1.php [ 3 ] in file:line
+2014-06-23 20:49:28 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 20:49:29 --- EMERGENCY: ErrorException [ 1 ]: Class 'A1_Core' not found ~ MODPATH/A1/classes/A1.php [ 3 ] in file:line
+2014-06-23 20:49:29 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 20:49:29 --- EMERGENCY: ErrorException [ 1 ]: Class 'A1_Core' not found ~ MODPATH/A1/classes/A1.php [ 3 ] in file:line
+2014-06-23 20:49:29 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 20:49:29 --- EMERGENCY: ErrorException [ 1 ]: Class 'A1_Core' not found ~ MODPATH/A1/classes/A1.php [ 3 ] in file:line
+2014-06-23 20:49:29 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 20:49:44 --- EMERGENCY: ErrorException [ 1 ]: Class 'A1_ORM' not found ~ MODPATH/A1/classes/A1/Core.php [ 42 ] in file:line
+2014-06-23 20:49:44 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 20:49:45 --- EMERGENCY: ErrorException [ 1 ]: Class 'A1_ORM' not found ~ MODPATH/A1/classes/A1/Core.php [ 42 ] in file:line
+2014-06-23 20:49:45 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 20:49:54 --- EMERGENCY: ErrorException [ 1 ]: Class 'A1_Driver_ORM' not found ~ MODPATH/A1/classes/A1/ORM.php [ 3 ] in file:line
+2014-06-23 20:49:54 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 20:49:55 --- EMERGENCY: ErrorException [ 1 ]: Class 'A1_Driver_ORM' not found ~ MODPATH/A1/classes/A1/ORM.php [ 3 ] in file:line
+2014-06-23 20:49:55 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 20:50:08 --- EMERGENCY: ErrorException [ 1 ]: Call to undefined method Request::response() ~ MODPATH/A1/classes/A1/Core.php [ 120 ] in file:line
+2014-06-23 20:50:08 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 21:04:03 --- EMERGENCY: ErrorException [ 1 ]: Class 'Model_usuarios' not found ~ MODPATH/orm/classes/Kohana/ORM.php [ 46 ] in file:line
+2014-06-23 21:04:03 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 21:17:34 --- EMERGENCY: ErrorException [ 4 ]: syntax error, unexpected ';' ~ APPPATH/classes/Controller/Login.php [ 29 ] in file:line
+2014-06-23 21:17:34 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-06-23 21:17:47 --- EMERGENCY: ErrorException [ 8 ]: Undefined variable: error ~ APPPATH/views/login.php [ 305 ] in /var/www/kohana/application/views/login.php:305
+2014-06-23 21:17:47 --- DEBUG: #0 /var/www/kohana/application/views/login.php(305): Kohana_Core::error_handler(8, 'Undefined varia...', '/var/www/kohana...', 305, Array)
+#1 /var/www/kohana/system/classes/Kohana/View.php(61): include('/var/www/kohana...')
+#2 /var/www/kohana/system/classes/Kohana/View.php(348): Kohana_View::capture('/var/www/kohana...', Array)
+#3 /var/www/kohana/system/classes/Kohana/View.php(228): Kohana_View->render()
+#4 /var/www/kohana/system/classes/Kohana/Response.php(160): Kohana_View->__toString()
+#5 /var/www/kohana/application/classes/Controller/Login.php(22): Kohana_Response->body(Object(View))
+#6 /var/www/kohana/system/classes/Kohana/Controller.php(84): Controller_Login->action_index()
+#7 [internal function]: Kohana_Controller->execute()
+#8 /var/www/kohana/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Login))
+#9 /var/www/kohana/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#10 /var/www/kohana/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#11 /var/www/kohana/index.php(118): Kohana_Request->execute()
+#12 {main} in /var/www/kohana/application/views/login.php:305
+2014-06-23 21:18:06 --- EMERGENCY: ErrorException [ 8 ]: Undefined variable: error ~ APPPATH/views/login.php [ 305 ] in /var/www/kohana/application/views/login.php:305
+2014-06-23 21:18:06 --- DEBUG: #0 /var/www/kohana/application/views/login.php(305): Kohana_Core::error_handler(8, 'Undefined varia...', '/var/www/kohana...', 305, Array)
+#1 /var/www/kohana/system/classes/Kohana/View.php(61): include('/var/www/kohana...')
+#2 /var/www/kohana/system/classes/Kohana/View.php(348): Kohana_View::capture('/var/www/kohana...', Array)
+#3 /var/www/kohana/system/classes/Kohana/View.php(228): Kohana_View->render()
+#4 /var/www/kohana/system/classes/Kohana/Response.php(160): Kohana_View->__toString()
+#5 /var/www/kohana/application/classes/Controller/Login.php(22): Kohana_Response->body(Object(View))
+#6 /var/www/kohana/system/classes/Kohana/Controller.php(84): Controller_Login->action_index()
+#7 [internal function]: Kohana_Controller->execute()
+#8 /var/www/kohana/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Login))
+#9 /var/www/kohana/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#10 /var/www/kohana/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#11 /var/www/kohana/index.php(118): Kohana_Request->execute()
+#12 {main} in /var/www/kohana/application/views/login.php:305
+2014-06-23 21:18:40 --- EMERGENCY: ErrorException [ 8 ]: Undefined variable: mensaje ~ APPPATH/views/login.php [ 271 ] in /var/www/kohana/application/views/login.php:271
+2014-06-23 21:18:40 --- DEBUG: #0 /var/www/kohana/application/views/login.php(271): Kohana_Core::error_handler(8, 'Undefined varia...', '/var/www/kohana...', 271, Array)
+#1 /var/www/kohana/system/classes/Kohana/View.php(61): include('/var/www/kohana...')
+#2 /var/www/kohana/system/classes/Kohana/View.php(348): Kohana_View::capture('/var/www/kohana...', Array)
+#3 /var/www/kohana/system/classes/Kohana/View.php(228): Kohana_View->render()
+#4 /var/www/kohana/system/classes/Kohana/Response.php(160): Kohana_View->__toString()
+#5 /var/www/kohana/application/classes/Controller/Login.php(22): Kohana_Response->body(Object(View))
+#6 /var/www/kohana/system/classes/Kohana/Controller.php(84): Controller_Login->action_index()
+#7 [internal function]: Kohana_Controller->execute()
+#8 /var/www/kohana/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Login))
+#9 /var/www/kohana/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#10 /var/www/kohana/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#11 /var/www/kohana/index.php(118): Kohana_Request->execute()
+#12 {main} in /var/www/kohana/application/views/login.php:271
+2014-06-23 21:20:56 --- EMERGENCY: View_Exception [ 0 ]: The requested view acess could not be found ~ SYSPATH/classes/Kohana/View.php [ 257 ] in /var/www/kohana/system/classes/Kohana/View.php:137
+2014-06-23 21:20:56 --- DEBUG: #0 /var/www/kohana/system/classes/Kohana/View.php(137): Kohana_View->set_filename('acess')
+#1 /var/www/kohana/system/classes/Kohana/View.php(30): Kohana_View->__construct('acess', NULL)
+#2 /var/www/kohana/application/classes/Controller/Login.php(29): Kohana_View::factory('acess')
+#3 /var/www/kohana/system/classes/Kohana/Controller.php(84): Controller_Login->action_access()
+#4 [internal function]: Kohana_Controller->execute()
+#5 /var/www/kohana/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Login))
+#6 /var/www/kohana/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 /var/www/kohana/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 /var/www/kohana/index.php(118): Kohana_Request->execute()
+#9 {main} in /var/www/kohana/system/classes/Kohana/View.php:137
+2014-06-23 21:22:23 --- EMERGENCY: ErrorException [ 8 ]: Undefined variable: user ~ APPPATH/views/access.php [ 30 ] in /var/www/kohana/application/views/access.php:30
+2014-06-23 21:22:23 --- DEBUG: #0 /var/www/kohana/application/views/access.php(30): Kohana_Core::error_handler(8, 'Undefined varia...', '/var/www/kohana...', 30, Array)
+#1 /var/www/kohana/system/classes/Kohana/View.php(61): include('/var/www/kohana...')
+#2 /var/www/kohana/system/classes/Kohana/View.php(348): Kohana_View::capture('/var/www/kohana...', Array)
+#3 /var/www/kohana/system/classes/Kohana/View.php(228): Kohana_View->render()
+#4 /var/www/kohana/system/classes/Kohana/Response.php(160): Kohana_View->__toString()
+#5 /var/www/kohana/application/classes/Controller/Login.php(29): Kohana_Response->body(Object(View))
+#6 /var/www/kohana/system/classes/Kohana/Controller.php(84): Controller_Login->action_access()
+#7 [internal function]: Kohana_Controller->execute()
+#8 /var/www/kohana/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Login))
+#9 /var/www/kohana/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#10 /var/www/kohana/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#11 /var/www/kohana/index.php(118): Kohana_Request->execute()
+#12 {main} in /var/www/kohana/application/views/access.php:30
+2014-06-23 21:22:24 --- EMERGENCY: ErrorException [ 8 ]: Undefined variable: user ~ APPPATH/views/access.php [ 30 ] in /var/www/kohana/application/views/access.php:30
+2014-06-23 21:22:24 --- DEBUG: #0 /var/www/kohana/application/views/access.php(30): Kohana_Core::error_handler(8, 'Undefined varia...', '/var/www/kohana...', 30, Array)
+#1 /var/www/kohana/system/classes/Kohana/View.php(61): include('/var/www/kohana...')
+#2 /var/www/kohana/system/classes/Kohana/View.php(348): Kohana_View::capture('/var/www/kohana...', Array)
+#3 /var/www/kohana/system/classes/Kohana/View.php(228): Kohana_View->render()
+#4 /var/www/kohana/system/classes/Kohana/Response.php(160): Kohana_View->__toString()
+#5 /var/www/kohana/application/classes/Controller/Login.php(29): Kohana_Response->body(Object(View))
+#6 /var/www/kohana/system/classes/Kohana/Controller.php(84): Controller_Login->action_access()
+#7 [internal function]: Kohana_Controller->execute()
+#8 /var/www/kohana/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Login))
+#9 /var/www/kohana/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#10 /var/www/kohana/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#11 /var/www/kohana/index.php(118): Kohana_Request->execute()
+#12 {main} in /var/www/kohana/application/views/access.php:30
