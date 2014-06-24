@@ -6,30 +6,26 @@ class Controller_Login extends Controller {
 	public function before()
 	{
 		parent::before();
-		$this->auth = A1::instance();
+		$this->a1 = A1::instance();
 		$this->users = new Model_Usuarios();
-		if ($this->auth->logged_in())
-		{
-			echo "inicio login";
-		}
+		
 		
 	}
 
 	public function action_index()
 	{
 		$msg = "";
-		//echo $this->auth->hash_password("123");
-		/*if($this->request->method()==Request::POST)
-		{
-			if($this->auth->login($_POST['email'], $_POST['password']))
+		echo "--".$this->a1->hash("admin")."---";
+		if($_POST)
+		{		
+			if($this->a1->login($_POST["email"],$_POST["password"],FALSE))
 			{
-				echo "asdsad";
+				echo "SI LOGEADO";
+			}else{
+				echo "NO LOGEADO";
 			}
-			else{
-				echo "no";
-			}
-		}
-		$this->response->body(View::factory("login")->set(array("msg"=>$msg)));*/
+		}	
+		$this->response->body(View::factory("login")->set(array("msg"=>$msg)));
 	}
 
 	

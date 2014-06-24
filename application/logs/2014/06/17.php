@@ -1393,3 +1393,6 @@
 2014-06-17 13:29:14 --- EMERGENCY: ErrorException [ 1 ]: Class 'A1' not found ~ APPPATH/classes/Controller/Login.php [ 9 ] in file:line
 2014-06-17 13:29:14 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
 #1 {main} in file:line
+2014-06-17 19:03:30 --- EMERGENCY: ErrorException [ 1 ]: Class 'A1' not found ~ APPPATH/classes/Controller/Login.php [ 9 ] in file:line
+2014-06-17 19:03:30 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
