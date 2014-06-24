@@ -3,8 +3,8 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Apr 29, 2014 at 12:52 AM
--- Server version: 5.5.35-0ubuntu0.13.10.2
+-- Generation Time: Jun 24, 2014 at 02:59 AM
+-- Server version: 5.5.37-0ubuntu0.13.10.1
 -- PHP Version: 5.5.3-1ubuntu2.3
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -2576,19 +2576,20 @@ INSERT INTO `municipios` (`id`, `nombre`, `estado`) VALUES
 
 CREATE TABLE IF NOT EXISTS `usuarios` (
   `id_user` int(11) NOT NULL AUTO_INCREMENT,
-  `name` varchar(250) NOT NULL,
-  `email` varchar(250) NOT NULL,
-  `password` varchar(250) NOT NULL,
+  `name` varchar(250) COLLATE utf8_unicode_ci NOT NULL,
+  `email` varchar(250) COLLATE utf8_unicode_ci NOT NULL,
+  `web` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  `password` varchar(250) COLLATE utf8_unicode_ci NOT NULL,
+  `token` varchar(250) COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`id_user`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=9 ;
 
 --
 -- Dumping data for table `usuarios`
 --
 
-INSERT INTO `usuarios` (`id_user`, `name`, `email`, `password`) VALUES
-(1, 'Josue Hernandez Rodriguez', 'josue.hdz@demo.com', ''),
-(2, 'Maria Rubio Hernandez', 'maria.r@demo.com', '');
+INSERT INTO `usuarios` (`id_user`, `name`, `email`, `web`, `password`, `token`) VALUES
+(8, 'Maria Peña Peña', 'admin@admin.com.mx', 'http://web.com', '$2a$12$clxakGzkOQ3zBotRgUslbeSXYn/625vc7fhNT10ehrDX2RrTjkfFe', '');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
