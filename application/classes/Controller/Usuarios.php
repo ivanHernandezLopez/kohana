@@ -33,7 +33,7 @@ class Controller_Usuarios extends Controller {
 			if($usuario)
 			{
 				//Solo si se inserto el registro
-				$msg = "Registro insertado correctamente";
+				$msg = "Ahora pudes logearte desde <a href='".URL::base()."login'>aqui</a><br>Usuario:".$_POST["email"]."<br>Contraseña:demo";
 			}
 		}
 		$view = View::factory("crud/agregar_usuarios");

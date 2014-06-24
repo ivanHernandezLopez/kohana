@@ -923,3 +923,16 @@
 #10 /var/www/kohana/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
 #11 /var/www/kohana/index.php(118): Kohana_Request->execute()
 #12 {main} in /var/www/kohana/application/views/access.php:30
+2014-06-23 22:04:44 --- EMERGENCY: ErrorException [ 2 ]: Creating default object from empty value ~ APPPATH/classes/Model/Usuarios.php [ 17 ] in /var/www/kohana/application/classes/Model/Usuarios.php:17
+2014-06-23 22:04:44 --- DEBUG: #0 /var/www/kohana/application/classes/Model/Usuarios.php(17): Kohana_Core::error_handler(2, 'Creating defaul...', '/var/www/kohana...', 17, Array)
+#1 /var/www/kohana/application/classes/Controller/Usuarios.php(32): Model_Usuarios->agregar(Array)
+#2 /var/www/kohana/system/classes/Kohana/Controller.php(84): Controller_Usuarios->action_agregar()
+#3 [internal function]: Kohana_Controller->execute()
+#4 /var/www/kohana/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Usuarios))
+#5 /var/www/kohana/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 /var/www/kohana/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#7 /var/www/kohana/index.php(118): Kohana_Request->execute()
+#8 {main} in /var/www/kohana/application/classes/Model/Usuarios.php:17
+2014-06-23 22:05:15 --- EMERGENCY: ErrorException [ 4 ]: syntax error, unexpected '->' (T_OBJECT_OPERATOR) ~ APPPATH/classes/Model/Usuarios.php [ 17 ] in file:line
+2014-06-23 22:05:15 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line

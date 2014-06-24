@@ -14,6 +14,7 @@ class Model_Usuarios extends ORM {
 		$usuario->name 	= $post["name"];
 		$usuario->email = $post["email"];
 		$usuario->web 	= $post["web"];
+		$usuario->password = A1::instance()->hash("demo");
 		return $usuario->save();
 	}
 
